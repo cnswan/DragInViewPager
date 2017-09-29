@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DragViewChild">
+        <attr name="drag_view_init" format="enum">
+            <enum name="close" value="0"/>
+            <enum name="open_top" value="1"/>
+            <enum name="open_bottom" value="2"/>
+            <enum name="open_center" value="3"/>
+        </attr>
+        <attr name="drag_view_max" format="dimension"/>
+        <attr name="drag_view_min" format="dimension"/>
+    </declare-styleable>
+</resources>
